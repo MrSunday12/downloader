@@ -35,7 +35,7 @@ func main() {
 	}
 
 	for _, image := range images {
-		log.Printf(strings.Repeat("-", 50))
+		log.Println(strings.Repeat("-", 50))
 		pulled := false
 
 		log.Printf("Checking if image is already pulled: %q", image)
