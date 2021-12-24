@@ -1,4 +1,4 @@
-module downloader
+module github.com/MrSunday12/downloader
 
 go 1.17
 
